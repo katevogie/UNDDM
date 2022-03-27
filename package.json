@@ -1,6 +1,6 @@
 {
   "homepage": "http://katevogie.github.io/UNDDM/",
-  "name": "DmatUND-dashboard",
+  "name": "UNDDM",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
