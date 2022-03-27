@@ -19,7 +19,7 @@ class Dashboard extends React.Component{
     }
 
     componentDidMount(){
-        //this.interval = setInterval(this.poll, this.state.delay);
+        this.interval = setInterval(this.poll, this.state.delay);
         this.poll();
     }
 
@@ -29,7 +29,7 @@ class Dashboard extends React.Component{
 
     poll = () => {
         this.setState({pollingCount: this.state.pollingCount + 1, oldDonations: this.state.donations});
-        fetch('https://events.dancemarathon.com/api/events/4589/donations?limit=5')
+        fetch('https://events.dancemarathon.com/api/events/4789/donations?limit=5')
             .then(response => response.json())
             .then(data => {
                 this.setState({donations: data})
