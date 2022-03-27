@@ -63,7 +63,7 @@ class Dashboard extends React.Component{
             <div className="countdown">
                 <span>🚀</span>
                 <Countdown date={new Date("April 2, 2022 20:55:00")} daysInHours={true}/>
-                <span style={{padding: 0}}> until Huskerthon blastoff!</span>
+                <span style={{padding: 0}}> until DM at UN blastoff!</span>
                 <span>🚀</span>
             </div>
         </Row>
